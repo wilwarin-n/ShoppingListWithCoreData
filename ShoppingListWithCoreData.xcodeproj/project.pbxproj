@@ -17,6 +17,7 @@
 		DBC83D092BB187D100D8FF66 /* ShoppingListWithCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC83D082BB187D100D8FF66 /* ShoppingListWithCoreDataTests.swift */; };
 		DBC83D132BB187D100D8FF66 /* ShoppingListWithCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC83D122BB187D100D8FF66 /* ShoppingListWithCoreDataUITests.swift */; };
 		DBC83D152BB187D100D8FF66 /* ShoppingListWithCoreDataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC83D142BB187D100D8FF66 /* ShoppingListWithCoreDataUITestsLaunchTests.swift */; };
+		DBC83D222BB3590D00D8FF66 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC83D212BB3590D00D8FF66 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DBC83D0E2BB187D100D8FF66 /* ShoppingListWithCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListWithCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC83D122BB187D100D8FF66 /* ShoppingListWithCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListWithCoreDataUITests.swift; sourceTree = "<group>"; };
 		DBC83D142BB187D100D8FF66 /* ShoppingListWithCoreDataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListWithCoreDataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBC83D212BB3590D00D8FF66 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				DBC83CF02BB187CD00D8FF66 /* SceneDelegate.swift */,
 				DBC83CF22BB187CD00D8FF66 /* ViewController.swift */,
 				DBC83CF42BB187CD00D8FF66 /* Main.storyboard */,
+				DBC83D212BB3590D00D8FF66 /* DetailsViewController.swift */,
 				DBC83CFA2BB187D100D8FF66 /* Assets.xcassets */,
 				DBC83CFC2BB187D100D8FF66 /* LaunchScreen.storyboard */,
 				DBC83CFF2BB187D100D8FF66 /* Info.plist */,
@@ -265,6 +268,7 @@
 				DBC83CF32BB187CD00D8FF66 /* ViewController.swift in Sources */,
 				DBC83CEF2BB187CD00D8FF66 /* AppDelegate.swift in Sources */,
 				DBC83CF12BB187CD00D8FF66 /* SceneDelegate.swift in Sources */,
+				DBC83D222BB3590D00D8FF66 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
