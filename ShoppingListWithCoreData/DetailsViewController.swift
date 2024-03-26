@@ -9,6 +9,10 @@ import UIKit
 
 class DetailsViewController: UIViewController {
 
+    @IBOutlet weak var itemSize: UITextField!
+    @IBOutlet weak var itemPrice: UITextField!
+    @IBOutlet weak var item: UITextField!
+    @IBOutlet weak var image: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

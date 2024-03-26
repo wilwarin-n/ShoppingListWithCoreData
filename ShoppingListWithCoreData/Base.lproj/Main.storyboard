@@ -75,6 +75,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="riM-T3-AYA"/>
+                    <connections>
+                        <outlet property="image" destination="uqJ-x7-pHb" id="dHT-TU-fBK"/>
+                        <outlet property="item" destination="W8M-2u-hfD" id="UEM-Fc-fsx"/>
+                        <outlet property="itemPrice" destination="qZ0-re-wSo" id="zTc-8q-rna"/>
+                        <outlet property="itemSize" destination="Lub-Ps-PW0" id="ao4-9u-MD4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVb-y6-J88" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
