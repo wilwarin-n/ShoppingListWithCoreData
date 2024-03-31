@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 class DetailsViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
@@ -35,6 +36,10 @@ class DetailsViewController: UIViewController, UIImagePickerControllerDelegate, 
         self.dismiss(animated: true, completion: nil)
     }
     @IBAction func saveClicked(_ sender: Any) {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
+        
+        let shopping =
     }
     
     @objc func closeKeyboard(){
