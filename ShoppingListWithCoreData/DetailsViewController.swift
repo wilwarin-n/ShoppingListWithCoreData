@@ -39,7 +39,26 @@ class DetailsViewController: UIViewController, UIImagePickerControllerDelegate, 
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let context = appDelegate.persistentContainer.viewContext
         
-        let shopping =
+        let shopping = NSEntityDescription.insertNewObject(forEntityName: "Shopping", into: context)
+        shopping.setValue(item.text!, forKey: "itemName")
+        shopping.setValue(itemSize.text!, forKey: "itemSize")
+        
+        if let itemPrice = Int(itemPrice.text!) {
+            shopping.setValue(itemPrice, forKey: "itemPrice")
+        }
+        
+        shopping.setValue(UUID(), forKey: "id")
+        let data = image.image?.jpegData(compressionQuality: 0.5)
+        shopping.setValue(data, forKey: "image")
+        
+        do{
+            try context.save()
+                print("Successfull")
+            }
+            catch {
+                print("Failed")
+            }
+        }
     }
     
     @objc func closeKeyboard(){
