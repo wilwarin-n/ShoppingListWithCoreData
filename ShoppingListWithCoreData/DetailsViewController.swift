@@ -24,6 +24,10 @@ class DetailsViewController: UIViewController, UIImagePickerControllerDelegate, 
         view.addGestureRecognizer(imageGestureRecognizer)
     }
     
+    @objc func closeKeyboard(){
+        view.endEditing(true)
+    }
+    
     @objc func selectImage(){
         let picker = UIImagePickerController()
         picker.delegate = self
@@ -61,8 +65,6 @@ class DetailsViewController: UIViewController, UIImagePickerControllerDelegate, 
         }
     }
     
-    @objc func closeKeyboard(){
-        view.endEditing(true)
-    }
+    
 
-}
+
